@@ -336,5 +336,7 @@ ASALocalRun/
 # Local History for Visual Studio
 .localhistory/
 
+# Example Run Results
+Out/*.xlsx
 # BeatPulse healthcheck temp database
 healthchecksdb
