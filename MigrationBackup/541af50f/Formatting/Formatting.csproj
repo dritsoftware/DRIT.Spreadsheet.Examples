@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DRIT.Spreadsheet, Version=0.8.20247.16, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DRIT.Spreadsheet.0.8.20247.16-alpha\lib\net45\DRIT.Spreadsheet.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -49,11 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="DRIT.Spreadsheet">
-      <Version>0.8.20247.16-alpha</Version>
-    </PackageReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
