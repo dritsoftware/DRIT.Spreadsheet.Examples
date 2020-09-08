@@ -50,7 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="DRIT.Spreadsheet">
-      <Version>0.8.20247.16-alpha</Version>
+      <Version>0.8.20252.1-alpha</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

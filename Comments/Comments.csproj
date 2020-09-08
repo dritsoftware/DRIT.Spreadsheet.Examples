@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{79851E7D-E218-4E75-93DC-340546A61887}</ProjectGuid>
+    <ProjectGuid>{C0073526-86CC-47C8-94C3-9131D6DE1CB3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Formatting</RootNamespace>
-    <AssemblyName>Formatting</AssemblyName>
+    <RootNamespace>Comments</RootNamespace>
+    <AssemblyName>Comments</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -21,7 +21,6 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
