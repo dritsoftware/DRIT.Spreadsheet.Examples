@@ -1,0 +1,17 @@
+<Project>
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net48;net8.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="DRIT.Spreadsheet" Version="26.*" />
+    <PackageReference Include="DRIT.Pdf" Version="26.9.*" />
+    <PackageReference Include="DRIT.Drawing" Version="26.*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Shared\ExampleSupport.cs" Link="Shared\ExampleSupport.cs" />
+  </ItemGroup>
+</Project>
